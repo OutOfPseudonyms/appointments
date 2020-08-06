@@ -8,10 +8,17 @@ $(document).ready(function() {
 
     $(".name").text(nameInput);
     $(".description").text(descriptionInput);
+    $(".date").text(dateInput);
     $(".startTime").text(startTime);
     $(".endTime").text(endTime);
     
     $("#confirmation").show();
+
+    $('#name').val('');
+    $('#description').val('');
+    $('#date').val('');
+    $('#startTime').val('');
+    $('#endTime').val('');
 
     event.preventDefault();
   })
